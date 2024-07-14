@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Yummy</title>
+  </head>
+  <body>
+    <!-- ------------ loading -------------------- -->
+    <div
+      class="loading position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center"
+    >
+      <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+    </div>
+    <!-- ------------ nav bar -------------------- -->
+    <div class="navGroup d-flex position-fixed">
+      <div class="leftSide p-4 d-none bg-black" id="leftSide">
+        <div class="links">
+          <ul class="list-unstyled">
+            <li class="py-2 text-white" id="SearchLink" role="button">
+              Search
+            </li>
+            <li
+              class="py-2 cursor-pointer text-white"
+              id="gategories"
+              role="button"
+            >
+              Categories
+            </li>
+            <li
+              class="py-2 cursor-pointer text-white"
+              id="areaMeal"
+              role="button"
+            >
+              Area
+            </li>
+            <li
+              class="py-2 cursor-pointer text-white"
+              id="mealIngredients"
+              role="button"
+            >
+              Ingredients
+            </li>
+            <li
+              class="py-2 cursor-pointe text-white"
+              id="contactUs"
+              role="button"
+            >
+              Contact Us
+            </li>
+          </ul>
+        </div>
+        <div class="leftSideEnd">
+          <div class="icons">
+            <i class="fa-brands fa-facebook text-white"></i>
+            <i class="fa-brands fa-twitter text-white"></i>
+            <i class="fa-solid fa-globe text-white"></i>
+          </div>
+          <div class="footer text-white">
+            <p>Copyright Â© 2019 All Rights <br />Reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="second-nav nav flex-column d-flex justify-content-between align-items-center vh-100 bg-white"
+        id="secondNav"
+      >
+        <img class="logo img-fluid" src="./images/logo.png" alt="logo" />
+        <i class="fa-solid fa-bars fa-2x" id="openIcon" role="button"></i>
+        <i
+          class="fa-solid fa-xmark fa-2x d-none"
+          id="closeIcon"
+          role="button"
+        ></i>
+        <div>
+          <i class="fa-solid fa-globe d-block" role="button"></i>
+          <i class="fa-solid fa-share-nodes" role="button"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------------------- -->
+    <section class="searchMeal" id="searchMeal">
+      <div class="container text-center w-75">
+        <div class="row g-3" id="rowData"></div>
+      </div>
+    </section>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

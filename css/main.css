@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  position: relative;
+  /* overflow: hidden; */
+}
+.logo {
+  width: 50px;
+}
+
+.leftSide {
+  /* z-index: 999; */
+  position: relative;
+}
+.leftSideEnd {
+  bottom: 0;
+}
+.second-nav {
+  width: 50px;
+  /* z-index: 999; */
+}
+.navGroup {
+  z-index: 999;
+}
+
+.row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: o;
+  bottom: 0;
+}
+.nameSearchDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+.fletterSearchDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+}
+.nameInputDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+.emailInputDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+}
+.phoneInputDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
+.ageInputDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+}
+.passwordInputDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.retypepasswordInputDiv {
+  min-width: 350px;
+  position: absolute;
+  top: 250px;
+  left: 650px;
+}
+.btn {
+  position: absolute;
+  left: 580px;
+  top: 365px;
+}
+.loading {
+  position: absolute;
+  z-index: 9;
+  background-color: #0d0d0d;
+  display: flex;
+}
+
+/* ===================================================== */
